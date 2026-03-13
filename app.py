@@ -3,7 +3,7 @@ import streamlit as st
 from ultralytics import YOLO
 from PIL import Image
 
-st.title("🕸   Spider-Verse Character Guess")
+st.title("🕸    Spider-Verse Character Guess")
 
 model = YOLO("best.pt")
 
